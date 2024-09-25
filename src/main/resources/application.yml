@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: jj
+  # DataSource Config
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: mysqlok123
+    url: jdbc:mysql://localhost:3306/jj
+server:
+  port: 8080
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: false
